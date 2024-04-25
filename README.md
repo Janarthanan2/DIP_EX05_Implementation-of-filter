@@ -126,16 +126,20 @@ plt.title('Laplacian Operator')
 <img src="https://github.com/Janarthanan2/DIP_EX05_Implementation-of-filter/assets/119393515/da86551b-c9b1-48d1-8974-338b11114e4d">
 
 #### ii) Using Weighted Averaging Filter
-<img src="">
+<img src="https://github.com/Janarthanan2/DIP_EX05_Implementation-of-filter/assets/119393515/5494b37f-f78c-48d5-b5b2-1eae25ebc691" width=50%>
 
 #### iii) Using Gaussian Filter
+<img src="https://github.com/Janarthanan2/DIP_EX05_Implementation-of-filter/assets/119393515/ab60e369-8c7b-4034-aa13-05bdc5252167" width=50%>
 
 #### iv) Using Median Filter
+<img src="https://github.com/Janarthanan2/DIP_EX05_Implementation-of-filter/assets/119393515/a520aba1-c178-417e-bb0e-a2719ed89841" width=50%>
 
 ### 2. Sharpening Filters
 ##### i) Using Laplacian Kernal
+<img src="https://github.com/Janarthanan2/DIP_EX05_Implementation-of-filter/assets/119393515/3e521c23-6bb1-42a6-8804-7f8419877b9f" width=50%>
 
 #### ii) Using Laplacian Operator
+<img src="https://github.com/Janarthanan2/DIP_EX05_Implementation-of-filter/assets/119393515/68ed975a-cad0-4c47-b17a-7ee13e433660" width=50%>
 
 ### Result:
 Thus the filters are designed for smoothing and sharpening the images in the spatial domain.
