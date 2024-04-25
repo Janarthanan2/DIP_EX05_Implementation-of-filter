@@ -33,7 +33,7 @@ Apply the Laplacian operator to the RGB image (image2) using OpenCV's cv2.Laplac
 
 ### 1. Smoothing Filters
 
-i) Using Averaging Filter
+**i) Using Averaging Filter**
 ```Python
 import cv2
 import numpy as np
@@ -55,7 +55,7 @@ plt.imshow(image3)
 plt.title('Filtered')
 plt.axis('off')
 ```
-ii) Using Weighted Averaging Filter
+**ii) Using Weighted Averaging Filter**
 ```Python
 import cv2
 import numpy as np
@@ -68,7 +68,7 @@ image4 = cv2.filter2D(image2, -1, kernel2)
 plt.imshow(image4)
 plt.title('Weighted Averaging Filtered')
 ```
-iii) Using Gaussian Filter
+**iii) Using Gaussian Filter**
 ```Python
 import cv2
 import numpy as np
@@ -81,7 +81,7 @@ plt.imshow(gaussian_blur)
 plt.title(' Gaussian Blurring Filtered')
 ```
 
-iv) Using Median Filter
+**iv) Using Median Filter**
 ```Python
 import cv2
 import numpy as np
@@ -95,7 +95,7 @@ plt.title(' Median Blurring Filtered')
 ```
 
 ### 2. Sharpening Filters
-i) Using Laplacian Kernal
+**i) Using Laplacian Kernal**
 ```Python
 import cv2
 import numpy as np
@@ -108,7 +108,7 @@ image5 =cv2.filter2D(image2, -1, kernel3)
 plt.imshow(image5)
 plt.title('Laplacian Kernel')
 ```
-ii) Using Laplacian Operator
+**ii) Using Laplacian Operator**
 ```Python
 import cv2
 import numpy as np
